@@ -1,0 +1,34 @@
+nav {
+  padding: 45px 0;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+
+.nav-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav_logo {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.flex {
+  display: flex;
+}
+
+.nav_items {
+  gap: 60px;
+  align-items: center;
+  flex: 1;
+  margin-left: 170px;
+}
+
+.shopping-cart {
+  font-size: 24px;
+  cursor: pointer;
+}
